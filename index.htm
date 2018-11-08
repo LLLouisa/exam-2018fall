@@ -2,34 +2,110 @@
 <html>
 <head>
     <title>Web Tech Exam - Q1.htm</title>
+    <style type="text/css">
+    img{   
+        float:right;
+    }
+
+    body{
+        margin:0px;
+    }
+    
+    div#top{
+        background-color:lightgrey;
+        padding: 0px 200px 100px 200px;
+    }
+
+    div#ak{
+        margin-left:200px;
+        font-style: italic;
+        font-size: 12px;
+        color:navy;
+        
+    }
+
+    div#rest{
+        padding-left:220px;
+        padding-right:220px;
+    }
+
+    a#about{
+        margin-left:50px;   
+    }
+
+    .heading{
+        background-color:lightgreen;
+        padding-left:50px;
+        width: 300px;
+    }
+
+    ul{
+        list-style-type: square;
+    }
+
+    ol{
+        list-style-type:upper-roman;
+    }
+
+    span.babson{
+        color:red;
+    }
+
+    a:hover{
+        background-color: yellow;
+        text-decoration: none;
+    }
+
+    li:first-child {
+        color:darkred;
+    }
+    
+    #map{
+        float:right;
+    }
+    
+    </style>
+
 </head>
+
+
+
+
+
 <body>
 
+    <div id="top">
     <h1>Babson College</h1>
+    <img src="logo.png" alt="logo" title="logo" height="80"/>
+    </div>
 
-
-    <p> <!-- This is the first paragraph -->
+    <div id="ak"><p> <!-- This is the first paragraph -->
         Acknowledgement: This website is for exam in the Web Technologies Course, Fall 2018. The material
         contained here is from https://en.wikipedia.org/wiki/Babson_College. Good luck!
     </p>
-    <div>
+    </div>
 
 
-        <h3>About Babson</h3>
+
+    <div id="rest">
+
+    
+        <a id="about"><h3 class="heading">About Babson</h3></a>
         <p><!-- This is the second paragraph -->
-            Babson College is a private business school in Wellesley, Massachusetts,
+            <span class="babson">Babson</span> College is a private business school in Wellesley, Massachusetts,
             established in 1919. Its central focus is on entrepreneurship education, and it is often ranked the most
             prestigious entrepreneurship college in the United States.
         </p>
+
         <p> <!-- This is the third paragraph -->
-            It was founded by Roger W. Babson as an all-male business institute. Now co-ed, Babson College offers
+            It was founded by Roger W. Babson as an all-male business institute. Now co-ed, <span class="babson">Babson</span> College offers
             bachelor's degrees in business administration and undergraduate students have the opportunity to declare
             concentrations in more than twenty seven areas of study. Through Babson's F. W. Olin Graduate School of
             Business, the college also offers master's degrees in business administration, finance, accounting,
             entrepreneurial leadership and management. Often referred to as the "Entrepreneur's College", Babson is
             renowned for immersing its students in the entrepreneurial lifestyle and culture. Babson is also notable for
             its Foundations of Management and Entrepreneurship course, in which every enrolled first-year student
-            starts, runs and dissolves a company. Babson currently offers undergraduates
+            starts, runs and dissolves a company. <span class="babson">Babson</span> currently offers undergraduates
             nearly sixty
             entrepreneurship-related courses. These courses are taught in tandem with various traditional liberal arts
             courses, which represent over 60% of the typical student's schedule. Every entrepreneurship course at Babson
@@ -37,7 +113,7 @@
             considered very selective and currently has an undergraduate acceptance rate of 24%.
         </p>
         <p><!-- This is the fourth paragraph -->
-            Babson College has consistently appeared on the U.S. News & World Report rankings as the number one college
+            Babson College has consistently appeared on the <a href="http://www.babson.edu">U.S. News & World Report</a> rankings as the number one college
             in entrepreneurship education for nearly three decades. In 2014, CNN's Money Magazine named Babson the
             number one college in the country for value and in 2015 the magazine ranked it second. The Economist ranked
             Babson second on its 2015 list of best colleges and universities in outperforming earnings expectations.
@@ -45,30 +121,41 @@
             & World Report.
         </p>
 
-        <h3>Basic Information</h3>
+        <h3 class="heading">Basic Information</h3>
+
+        <div id="map"><iframe width="300" height="200" src="https://maps.google.com/maps?q=babson%20college&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+
         <p>
-            Former names: Babson Institute (1919–1969)
+            <ul>
+            <li>Former names: Babson Institute (1919–1969)</li>
 
-            Type: Private
+            <li>Type: Private</li>
 
-            Established: September 3, 1919
+            <li>Established: September 3, 1919</li>
 
-            Location: Wellesley, Massachusetts, United States
+            <li>Location: Wellesley, Massachusetts, United States</li>
 
-            Website: www.babson.edu
+            <li>Website: <a href="http://www.babson.edu/Pages/default.aspx"> www.babson.edu</a></li>
+        </ul>
         </p>
 
 
-        <h3>Class of 2019 statistics</h3>
+        <h3 class="heading">Class of 2019 statistics</h3>
         <p>
-            Class size: 528
-            Percentage of women: 54
-            Percentage of multicultural students: 30
-            Percentage of international students: 25
-            Number of countries represented: 51
-
+            <ol>
+            <li>Class size: 528</li>
+            <li>Percentage of women: 54</li>
+            <li>Percentage of multicultural students: 30</li>
+            <li>Percentage of international students: 25</li>
+            <li>Number of countries represented: 51</li>
+            </ol>
         </p>
+    
+
+    <p><a href="index.htm#about">Top of Page</a></p>
     </div>
+
 
 </body>
 </html>
